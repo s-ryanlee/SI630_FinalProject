@@ -2,3 +2,4 @@ venv_final_proj/
 data/
 data_zipped/
 .ipynb_checkpoints/
+test_bert2bert/
