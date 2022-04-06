@@ -41,7 +41,7 @@ for a_tag in a_elements:
 
     shakespeare_plays.append(df)
 
-print(f'Number of plays collected and processed: {len(shakespeare_plays)}')
+print(f'Number of tables collected and processed: {len(shakespeare_plays)}')
 
 shake_df = pd.concat(shakespeare_plays, axis=0)
 shake_original = shake_df[shake_df['version'] == 'original'].copy().rename(columns={'text': 'original_text'})
